@@ -1,7 +1,3 @@
-Segue o README finalizado para o **TestCraft**:
-
----
-
 # TestCraft
 
 ## Introdução
