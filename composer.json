@@ -1,0 +1,28 @@
+{
+    "name": "fabtec/test-craft",
+    "description": "Pacote para facilitar a criação de testes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FabTec\\TestCraft\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HenriqueBS0",
+            "email": "henrique.10agr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "10.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FabTec\\TestCraft\\TestCraftServiceProvider"
+            ]
+        }
+    }
+}

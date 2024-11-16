@@ -1,0 +1,29 @@
+<?php
+
+namespace {{namespace}};
+
+use {{modelClassNamespace}};
+use FabTec\TestCraft\ResourceControllerTestCase;
+
+class {{className}} extends ResourceControllerTestCase
+{
+    /**
+     * {@inheritDoc}
+     */
+    protected string $modelClass = {{modelClass}}::class;
+
+    /**
+     * {@inheritDoc}
+     */
+    protected string $routePrefix = '{{routePrefix}}';
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function generateData(): array
+    {
+        return [
+
+        ];
+    }
+}
