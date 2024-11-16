@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O **TestCraft** é um pacote para Laravel que facilita a criação de classes de teste para controllers do tipo resource. Ele inclui um comando de terminal para geração automática de testes e uma classe base que abstrai as operações comuns de testes em controllers RESTful.
+O **TestCraft** é um pacote para Laravel que facilita a criação de classes de teste para controllers do tipo resource. Ele inclui um comando de terminal para geração automática de testes e uma classe base que abstrai as operações comuns de testes em controllers resource.
 
 Este pacote foi desenvolvido com o objetivo de:
 - **Padronizar** a escrita de testes em projetos Laravel.
@@ -74,7 +74,7 @@ php artisan testcraft:create {entity}
 
 ## Classe Base: `ResourceControllerTestCase`
 
-As classes geradas herdam de `ResourceControllerTestCase`, que abstrai as operações comuns de testes em controllers RESTful.
+As classes geradas herdam de `ResourceControllerTestCase`, que abstrai as operações comuns de testes em controllers resource.
 
 ### Atributos Customizáveis
 
