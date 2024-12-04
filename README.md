@@ -180,6 +180,12 @@ Para contribuir com o **TestCraft**, abra um pull request ou reporte problemas n
 
 ---
 
+## Autores
+
+- Henrique Borges dos Santos [https://github.com/HenriqueBS0](https://github.com/HenriqueBS0)  
+
+---
+
 ## Licença
 
 Este pacote é licenciado sob a [MIT License](LICENSE).
