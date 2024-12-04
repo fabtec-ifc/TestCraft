@@ -13,26 +13,7 @@ Este pacote foi desenvolvido com o objetivo de:
 
 ## Instalação
 
-Para adicionar este pacote ao seu projeto Laravel, siga os passos abaixo:
-
-### 1. Adicionar o Repositório ao `composer.json`
-
-Como este pacote está hospedado em um repositório Git privado, você deve configurar o repositório no seu arquivo `composer.json`. Adicione a seguinte entrada:
-
-```json
-{
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@github.com:fabtec-ifc/TestCraft.git"
-    }
-  ]
-}
-```
-
-### 2. Instalar o Pacote
-
-Depois de configurar o repositório, instale o pacote executando:
+Instale o pacote executando:
 
 ```bash
 composer require fabtec/test-craft
