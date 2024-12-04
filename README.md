@@ -16,7 +16,7 @@ Este pacote foi desenvolvido com o objetivo de:
 Instale o pacote executando:
 
 ```bash
-composer require fabtec/test-craft
+composer require fabtec/test-craft --dev
 ```
 
 ---
